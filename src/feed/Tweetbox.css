@@ -1,0 +1,26 @@
+.feed__headeroptions{
+    border: 1px solid grey;
+
+}
+
+.feed__headerfirstrow{
+    display: flex;
+    padding: 10px;
+}
+
+.feed__headerfirstrow > input{
+   border: none;
+   width: 100%;
+}
+
+.feed__headerbtn{
+    background-color: var(--twitter-color) !important;
+    color: white !important;
+    border: none !important;
+    font-weight: 900 !important;
+    margin-top: 20px !important;
+    text-transform: inherit !important;
+    height: 40px !important;
+    border-radius: 30px !important;
+
+}
