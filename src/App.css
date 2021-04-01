@@ -4,7 +4,6 @@ body{
 }
 
 .app{
-    border: 1px solid lightgray;
     display: flex;
     height: 100vh;
     max-width: 1300px;

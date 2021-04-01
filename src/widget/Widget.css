@@ -1,3 +1,34 @@
 .widget{
     flex: 0.3;
 }
+
+.widget__searchbox{
+    display: flex;
+    align-items: center;
+    background-color: var(--background);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px 0 0 20px;
+
+}
+
+.widget__searchbox > input{
+    border: none;
+    background-color: var(--background);
+}
+
+.widget__searchicon{
+    color: gray ;
+}
+
+.widget__container{
+    margin: 15px 0 0 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+}
+
+.widget__container >h2{
+    font-size: 18px;
+    font-weight: 800;
+}
